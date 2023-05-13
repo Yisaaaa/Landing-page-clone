@@ -97,7 +97,8 @@ p {
 
 .signup:hover {
 	cursor: pointer;
-	color: white;
+	color: var(--Navy);
+	background-color: white;
 }
 
 /* SECTION 2 */
@@ -154,4 +155,28 @@ p {
 	font-weight: bold;
 	font-size: 29px;
 	text-align: end;
+}
+
+/* SECTION 4 */
+.section-4 {
+	padding: 90px 70px;
+}
+
+.section-4 aside {
+	background-color: var(--Navy);
+	padding: 70px 50px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	gap: 70px;
+}
+
+.section-4 h1 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.section-4 button {
+	flex: 0 1 350px;
+	height: 50px;
 }
