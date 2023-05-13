@@ -1,0 +1,157 @@
+:root {
+	--Navy: #1f2937;
+	--Blue: #3882f6;
+	--Light-gray: #e5e7eb;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	color: white;
+}
+
+p {
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+img {
+	border-radius: 20px;
+}
+
+/* HEADER */
+
+header,
+.section-1 {
+	background-color: var(--Navy);
+}
+
+.main-header {
+	padding: 20px 60px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	align-items: center;
+}
+
+.main-nav {
+	display: flex;
+	gap: 30px;
+	margin-right: 50px;
+	align-items: flex-start;
+}
+
+.main-nav a:link {
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.main-nav a:visited {
+	color: white;
+}
+
+.main-nav a:hover {
+	box-sizing: border-box;
+	border-radius: 15px;
+	background-color: var(--Blue);
+}
+
+/* SECTION 1 */
+
+.section-1 {
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+	padding: 40px 50px;
+	margin-bottom: 20px;
+}
+
+.blue-sky-img {
+	width: 450px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.page-description {
+	margin-top: 40px;
+}
+
+.page-description h1,
+p {
+	margin-bottom: 20px;
+}
+
+.signup {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: var(--Blue);
+	border: 0;
+	font-size: 20px;
+}
+
+.signup:hover {
+	cursor: pointer;
+	color: white;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+	padding: 20px;
+	text-align: center;
+	color: var(--Navy);
+}
+
+.section-2 h1 {
+	color: var(--Navy);
+	font-weight: 900;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+/* CARDS */
+.card-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card {
+	padding: 20px;
+}
+
+.card img {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* SECTION 3 */
+.section-3 {
+	padding: 90px 70px;
+	background-color: var(--Light-gray);
+	color: var(--Navy);
+}
+
+.quote {
+	font-size: 27px;
+	font-style: italic;
+	text-align: justify;
+}
+
+.quote-author {
+	font-weight: bold;
+	font-size: 29px;
+	text-align: end;
+}
