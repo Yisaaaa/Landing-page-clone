@@ -180,3 +180,10 @@ p {
 	flex: 0 1 350px;
 	height: 50px;
 }
+
+footer {
+	background-color: var(--Navy);
+	text-align: center;
+	font-size: 17px;
+	padding: 20px 0;
+}
